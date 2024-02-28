@@ -11,7 +11,7 @@ function Home() {
         <div className="buttonDiv">
           <div className="textDiv">
             <button className="btn">
-              <a href="#">Explore</a>
+              <a href="/home">Explore</a>
             </button>
           </div>
         </div>

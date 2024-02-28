@@ -79,7 +79,7 @@ function Main() {
                   <p className="description">{productDesc}</p>
                 </div>
                 <button className="btn">
-                  <a href="#">View</a>
+                  <a href="/home">View</a>
                 </button>
               </div>
             </div>

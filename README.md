@@ -25,6 +25,11 @@ Install dependencies using npm install.
 Run the application using npm start.
 Access the application in your web browser at localhost:3000.
 
+
+
+https://github.com/Asttttha/Ecom-shopping-app/assets/95849912/4cbec15c-49cb-4e76-ba58-e69478748ebd
+
+
 ## Contribution
 Contributions to the project are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 

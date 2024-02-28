@@ -1,0 +1,196 @@
+@keyframes spreadOut {
+  0% {
+    letter-spacing: 0;
+  }
+  100% {
+    letter-spacing: 0.1em;
+  }
+}
+
+.mainSection {
+  width: 100%;
+  margin: auto;
+  padding: 0.25rem 0;
+  .secTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .title {
+      animation: spreadOut 2s ease-in-out infinite alternate;
+      position: relative;
+      width: max-content;
+      color: #990011;
+      margin: 1rem 0;
+      z-index: 2;
+    }
+  }
+  .secContent {
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    .singleCard {
+      padding: 1rem;
+      width: auto;
+      height: 100%;
+      display: grid;
+      row-gap: 10px;
+      border-radius: 10px;
+      align-items: center;
+      background-color: rgb(247, 239, 239);
+      box-shadow: 0px 2px 4px rgb(135, 111, 92);
+      overflow: hidden;
+
+      &:hover {
+        background-color: #ffa99a;
+        box-shadow: 0px 2px 4px rgba(92, 81, 72, 0.502);
+      }
+
+      .imgDiv {
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          transition: 3s ease;
+          border: none;
+          border-radius: 10px;
+        }
+        &:hover {
+          img {
+            transform: scale(1.1);
+          }
+        }
+      }
+      .cardDesc {
+        padding: 1rem;
+        .name {
+          font-size: 1.2rem;
+          padding-bottom: 10px;
+        }
+        .description {
+          color: rgb(95, 91, 91);
+          font-size: 15px;
+        }
+      }
+      .btn {
+        margin-top: 1rem;
+        width: 30%;
+        height: auto;
+        a {
+          font-weight: 600;
+        }
+
+        &:hover {
+          background-color: beige;
+        }
+      }
+    }
+  }
+  .moreBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .btn {
+      position: relative;
+      color: black;
+      margin: 1rem;
+      width: 30%;
+      height: auto;
+      &:hover {
+        background-color: beige;
+      }
+      a {
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1015px) {
+  .mainSection {
+    .moreBtn {
+      .btn {
+        width: 10%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 830px) {
+  .mainSection {
+    .secContent {
+      margin: 0;
+      padding: 2px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      .singleCard {
+        padding: 1rem;
+        width: 45%;
+        height: 50%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        row-gap: 1rem;
+
+        .imgDiv {
+          width: auto;
+          margin: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 998px) {
+  .mainSection {
+    .secContent {
+      margin: 0;
+      padding: 2px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      .singleCard {
+        padding: 1rem;
+        width: 45%;
+        height: 50%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        row-gap: 2rem;
+        align-items: center;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1550px) {
+  .mainSection {
+    .secContent {
+      margin: 0;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      .singleCard {
+        padding: 1rem;
+        width: 30%;
+        height: 50%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        row-gap: 1rem;
+
+        align-items: center;
+      }
+    }
+  }
+}

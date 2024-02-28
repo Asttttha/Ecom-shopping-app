@@ -1,0 +1,73 @@
+.footerSection {
+  width: 100%;
+  margin: auto;
+  background-color: rgb(247, 239, 239);
+  box-shadow: 2px 0px 2px rgba(135, 111, 92, 0.612);
+}
+.footerSection div {
+  padding: 10px;
+}
+.footerSection .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerSection .title .titleName {
+  position: relative;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0.5rem 0;
+}
+.footerSection .categories {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.footerSection .categories .list h4,
+.footerSection .categories .list2 h4,
+.footerSection .categories .list3 h4 {
+  color: #b93c4a;
+  padding: 0.5rem 0;
+  font-weight: 600;
+}
+.footerSection .categories .list .item,
+.footerSection .categories .list2 .item,
+.footerSection .categories .list3 .item {
+  font-weight: 300;
+  color: rgb(255, 133, 111);
+  cursor: pointer;
+}
+.footerSection .footer-rights {
+  justify-content: center;
+  align-items: center;
+}
+.footerSection .footer-rights p {
+  color: #6e5659;
+}
+
+@media screen and (min-width: 580px) {
+  .footerSection {
+    padding: 2px 40px;
+  }
+}
+@media screen and (min-width: 100px) {
+  .footerSection {
+    padding: 2px 90px;
+  }
+}
+@media screen and (min-width: 1027px) {
+  .footerSection {
+    padding: 2px 300px;
+  }
+}
+@media screen and (min-width: 1512px) {
+  .footerSection {
+    padding: 2px 400px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .footerSection {
+    padding: 2px 9px;
+  }
+}/*# sourceMappingURL=footer.css.map */

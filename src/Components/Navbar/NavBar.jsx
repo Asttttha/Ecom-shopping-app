@@ -31,39 +31,39 @@ function NavBar() {
         <div className={active}>
           <ul className="navList flex">
             <li className="navItem">
-              <a href="#" className="navLink flex">
+              <a href="/home" className="navLink flex">
                 <MdHomeFilled className="icon" />
                 <h4>Home</h4>
               </a>
             </li>
             <li className="navItem">
-              <a href="#" className="navLink flex">
+              <a href="/about" className="navLink flex">
                 <BsInfo className="icon" /> <h4> About</h4>
               </a>
             </li>
             <li className="navItem">
-              <a href="#" className="navLink flex">
+              <a href="/shop" className="navLink flex">
                 <AiOutlineShopping className="icon" />
                 <h4>Shop</h4>
               </a>
             </li>
             <li className="navItem">
-              <a href="#" className="navLink flex">
+              <a href="/contact" className="navLink flex">
                 <MdContacts className="icon" /> <h4>Contact</h4>
               </a>
             </li>
             <li className="navItem">
-              <a href="#" className="navLink flex">
+              <a href="/orders" className="navLink flex">
                 <BsBoxSeam className="icon" /> <h4>Orders</h4>
               </a>
             </li>
             <li className="navItem">
-              <a href="#" className="navLink flex">
+              <a href="/likes-and-cart" className="navLink flex">
                 <TbShoppingCartHeart className="icon" /> <h4>Likes and cart</h4>
               </a>
             </li>
             <li className="navItem">
-              <a href="#" className="navLink flex">
+              <a href="/account" className="navLink flex">
                 <CgProfile className="icon" /> <h4>Account</h4>
               </a>
             </li>

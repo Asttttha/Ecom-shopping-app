@@ -2,6 +2,8 @@
 This React.js e-commerce template, currently in development, boasts a dynamic navbar, captivating home page video background, and product showcase. With modern features like React Icons and Aos for animations, it promises a visually engaging user experience for online shoppers. Please note that this project is still ongoing.
 
 
+### Deployed link
+https://ecom-shopping-app.vercel.app/
 
 ## Project Description
 This project is a web application built using React.js, designed to showcase a modern and stylish e-commerce website template. It includes components such as a navbar, home page with video background, main section featuring clothing products, and a footer section. The design emphasizes clean layouts, smooth transitions, and intuitive user experience.
